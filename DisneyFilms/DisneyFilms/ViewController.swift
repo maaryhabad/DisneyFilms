@@ -30,7 +30,7 @@ class ViewController: UITableViewController {
         if films.count > 0 {
             cell.textLabel?.text = films[indexPath.row].name
         } else {
-            cell.textLabel?.text = "OLÁ MUNDO ESTOU AQUI!"
+            cell.textLabel?.text = "Faltou meu pudim!"
         }
         
         return cell
