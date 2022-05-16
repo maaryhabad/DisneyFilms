@@ -6,11 +6,12 @@
 //
 
 import Foundation
+import UIKit
 
-let films = [Film]()
+var films = [Film]()
 
 struct Film {
-    let year: Int
+    let year: String
     let name: String
-    let poster: String
+    let poster: UIImage
 }

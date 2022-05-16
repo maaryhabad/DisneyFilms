@@ -9,7 +9,7 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
-    var selectedImage: String?
+    var selectedImage: UIImage?
     
     @IBOutlet var imageView: UIImageView!
     
